@@ -8,7 +8,11 @@
                 template: '<input ng-model="info">',
                 scope: {
                     info: '<'
+                },
+                controller: function() {
+                    console.log('my ctrl controller', this);
                 }
+
             }
         });
 })();
